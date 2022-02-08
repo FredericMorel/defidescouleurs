@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+Créer des colonnes et des carrés de couleurs
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

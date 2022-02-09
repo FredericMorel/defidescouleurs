@@ -1,4 +1,7 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             Container(
               width: 100,
-              height: 1000,
+              height: double.infinity,
               color: Colors.red,
             ),
             Column(
@@ -41,7 +44,7 @@ class MyApp extends StatelessWidget {
             ),
             Container(
               width: 100,
-              height: 1000,
+              height: double.infinity,
               color: Colors.blue,
             ),
           ],
